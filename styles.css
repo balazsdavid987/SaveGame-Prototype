@@ -1,0 +1,36 @@
+body {
+  padding: 25px;
+}
+
+.container {
+  width: 300px;
+  margin: auto;
+}
+
+.container div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+hr {
+  border: 0;
+  height: 1px;
+  background: #333;
+}
+
+input {
+  background-color: white;
+  border: 1px solid black;
+  padding: 10px;
+  margin: 5px 0;
+}
+
+input[type=button] {
+  width: 100%;
+}
+
+input[type=file] {
+  display: none;
+}
